@@ -8,17 +8,17 @@ crazy joy
 ============Quantumultx===============
 [task_local]
 #crazyJoy挂机
-10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机, enabled=true
+10 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机, enabled=true
 
 ================Loon==============
 [Script]
-cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js,tag=crazyJoy挂机
+cron "10 7 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy_coin.js,tag=crazyJoy挂机
 
 ===============Surge=================
-crazyJoy挂机 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js
+crazyJoy挂机 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy_coin.js
 
 ============小火箭=========
-crazyJoy挂机 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js, cronexpr="10 * * * *", timeout=200, enable=true
+crazyJoy挂机 = type=cron,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_crazy_joy_coin.js, cronexpr="10 * * * *", timeout=200, enable=true
 
  */
 
@@ -167,8 +167,14 @@ if ($.isNode()) {
   }
   let count = 0
 
+<<<<<<< HEAD
   if (cookiesArr.length) {
     console.log(`\n挂机开始，自动8s收一次金币`);
+=======
+  if (cookiesArr.length && $.isNode()) {
+    console.log(`\n挂机开始，自动8s收一次金币`);
+    //兼容iOS
+>>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
     setInterval(async () => {
       const promiseArr = cookiesArr.map(ck => getCoinForInterval(ck));
       await Promise.all(promiseArr);
