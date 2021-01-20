@@ -2,6 +2,7 @@
   "name": "LXK9301 task gallery",
   "description": "https://github.com/LXK9301/jd_scripts",
   "task": [
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "5 6-18/6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
     "20 7-19/6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png",
@@ -39,6 +40,8 @@
     "2 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     "1 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
 =======
+=======
+>>>>>>> Stashed changes
     "5 6-18/6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_fruit.js, tag=东东农场 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png",
     "20 7-19/6 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_pet.js, tag=东东萌宠 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png",
     "10 7-21/2 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_plantBean.js, tag=京东种豆得豆 , img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png",
@@ -74,6 +77,9 @@
     "5 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     "2 0 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     "1 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+<<<<<<< Updated upstream
 >>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
+=======
+>>>>>>> Stashed changes
   ]
 }
