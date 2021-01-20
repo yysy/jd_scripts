@@ -1,12 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-# 低调使用，请勿使用github action、滥用github资源会封我仓库以及账号
-=======
 ## 请勿使用github action、滥用github资源会封我仓库以及账号，[详见](https://github.com/LXK9301/jd_scripts/issues/3)
->>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
-=======
-## 请勿使用github action、滥用github资源会封我仓库以及账号，[详见](https://github.com/LXK9301/jd_scripts/issues/3)
->>>>>>> Stashed changes
 
 ## 特别声明: 
 
@@ -103,40 +95,6 @@
 
 ## 食用方法
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    3. MacOS
- 
-### 方法二：Docker（NAS或VPS用户）
-=======
-### 1. Docker1
->>>>>>> Stashed changes
-
-- [部署方法](https://github.com/LXK9301/jd_scripts/tree/master/docker)
-
-- [环境变量集合](https://github.com/LXK9301/jd_scripts/blob/master/githubAction.md)
- 
-- 获取京东cookie教程可参考：
-  
-  + [浏览器获取京东cookie教程](https://github.com/LXK9301/jd_scripts/blob/master/backUp/GetJdCookie.md)
-    
-  + [插件获取京东cookie教程](https://github.com/LXK9301/jd_scripts/blob/master/backUp/GetJdCookie2.md)
-    
-  + 京东APP扫码获取cookie(此种方式获取的cookie有效期为90天)(执行`node getJDCookie.js`即可)
-
-### 2. Docker2
-
-教程请见：[EvineDeng/jd-base](https://github.com/EvineDeng/jd-base)
-
-### 3. 系统直装
-
-教程请见：[EvineDeng/jd-base](https://github.com/EvineDeng/jd-base)，适用于以下系统：
-
-  1. Armbian/OpenWrt/Debian/Ubuntu/CentOS/Fedora/RedHat等Linux系统
-
-<<<<<<< Updated upstream
-### 方法三：iOS系统的代理软件（QuantumultX, Surge, Loon, 小火箭）
-=======
 ### 1. Docker1
 
 - [部署方法](https://github.com/LXK9301/jd_scripts/tree/master/docker)
@@ -164,16 +122,6 @@
   2. Android
 
   3. MacOS
->>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
-
-### 4. iOS代理软件（QuantumultX, Surge, Loon, 小火箭）
-
-<<<<<<< HEAD
-### 赞赏码(开发维护不易,请赏杯茶水费)
-=======
-  2. Android
-
-  3. MacOS
 
 ### 4. iOS代理软件（QuantumultX, Surge, Loon, 小火箭）
 
@@ -181,23 +129,10 @@
 
 ## 赞赏码(开发维护不易,请赏杯茶水费)
 
->>>>>>> Stashed changes
-<div align=center><img width="250" height="250" src="./icon/thanks.jpg"/></div>
-=======
-- [京东cookie获取脚本 JD_extra_cookie.js](https://raw.githubusercontent.com/LXK9301/jd_scripts/master/JD_extra_cookie.js)
-
-## 赞赏码(开发维护不易,请赏杯茶水费)
-
 <div align=center><img width="250" height="250" src="./icon/thanks.jpg"/></div>
 
 ## 特别感谢(排名不分先后)：
->>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
 
-<<<<<<< Updated upstream
-=======
-## 特别感谢(排名不分先后)：
-
->>>>>>> Stashed changes
 * [@NobyDa](https://github.com/NobyDa)
 
 * [@chavyleung](https://github.com/chavyleung)

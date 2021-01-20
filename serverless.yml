@@ -58,11 +58,7 @@ inputs:
           cronExpression: "0 8 */3 * * * *"
           enable: true
           argument: jd_speed&jd_daily_egg&jd_nian
-<<<<<<< Updated upstream
-    - timer: #东东超市 #京东家庭号
-=======
     - timer: #东东超市
->>>>>>> Stashed changes
         parameters:
           name: superMarket
           cronExpression: "0 15 * * * * *"

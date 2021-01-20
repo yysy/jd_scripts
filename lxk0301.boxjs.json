@@ -894,8 +894,6 @@
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
       "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdfactory.js",
-<<<<<<< Updated upstream
-=======
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"
@@ -923,7 +921,6 @@
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
       "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js",
->>>>>>> Stashed changes
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png"

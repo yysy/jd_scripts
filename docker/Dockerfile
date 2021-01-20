@@ -12,15 +12,7 @@ RUN set -ex \
         && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
         && echo "Asia/Shanghai" > /etc/timezone
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-RUN git clone https://gitee.com/lxk0301/jd_scripts.git /scripts \
-=======
 RUN git clone ${REPO_URL} /scripts \
->>>>>>> 2ac25fae16812dbebface05f026723652f88ec96
-=======
-RUN git clone ${REPO_URL} /scripts \
->>>>>>> Stashed changes
         && cd /scripts \
         && git checkout master \
         && mkdir logs \
