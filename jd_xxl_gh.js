@@ -807,7 +807,7 @@ function taskUrl(functionId, body = {}, decrypt = false) {
       'Host': 'jd.moxigame.cn',
       'Connection': 'keep-alive',
       'Content-Type': decrypt ? 'application/x-www-form-urlencoded' : 'application/json',
-      'Referer': 'https://game-cdn.moxigame.cn/eliminateJD/index.html?activeId=A_112790_R_1_D_20201028',
+      'Referer': 'https://game-cdn.moxigame.cn/eliminateJD/index.html?activeId=A_112790_R_3_D_20201102',
       'User-Agent': $.isNode() ? (process.env.JD_USER_AGENT ? process.env.JD_USER_AGENT : "jdapp;iPhone;9.2.2;14.2;%E4%BA%AC%E4%B8%9C/9.2.2 CFNetwork/1206 Darwin/20.1.0") : ($.getdata('JDUA') ? $.getdata('JDUA') : "jdapp;iPhone;9.2.2;14.2;%E4%BA%AC%E4%B8%9C/9.2.2 CFNetwork/1206 Darwin/20.1.0"),
       'Accept-Language': 'zh-cn',
       'Accept-Encoding': 'gzip, deflate, br',
