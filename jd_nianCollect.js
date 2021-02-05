@@ -76,11 +76,10 @@ async function collectProduceScore() {
       "stealId": "-1"
     }
     const extraData = {
-      //"jj": 6,
-      "jj": "",
+      "jj": 6,
       "buttonid": "jmdd-react-smash_0",
       "sceneid": "homePageh5",
-      //"appid": '50073'
+      "appid": '50073'
     }
     const body = encode(temp, $.secretp, extraData);
     await stall_collectProduceScore(body);
