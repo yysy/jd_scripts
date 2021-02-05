@@ -81,7 +81,6 @@ async function collectProduceScore() {
       "buttonid": "jmdd-react-smash_0",
       "sceneid": "homePageh5",
       //"appid": '50073'
-      "taskid": '5'
     }
     const body = encode(temp, $.secretp, extraData);
     await stall_collectProduceScore(body);
