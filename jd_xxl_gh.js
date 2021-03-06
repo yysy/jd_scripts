@@ -215,7 +215,7 @@ function getActInfo(inviter=null) {
 
 function checkLogin() {
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/logincheck", {
+    $.post(taskUrl("eliminate_jdgh/game/local/logincheck", {
       info: JSON.stringify($.info),
       "reqsId": $.reqId++
     }), async (err, resp, data) => {
@@ -395,7 +395,7 @@ function beginLevel() {
     'reqsId': $.reqId++
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/beginLevel", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/beginLevel", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
@@ -438,7 +438,7 @@ function endLevel() {
     'reqsId': $.reqId++
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/endLevel", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/endLevel", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
@@ -583,7 +583,7 @@ function getDailyMatch() {
     'reqsId': $.reqId++
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/getDailyMatch", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/getDailyMatch", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
@@ -625,7 +625,7 @@ function beginDailyMatch() {
     'levelId': $.curLevel
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/beginDailyMatch", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/beginDailyMatch", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
@@ -664,7 +664,7 @@ function endDailyMatch() {
     'levelId': $.curLevel,
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/endDailyMatch", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/endDailyMatch", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
@@ -698,7 +698,7 @@ function getDailyMatchAward() {
     'reqsId': $.reqId++
   }
   return new Promise(resolve => {
-    $.post(taskUrl("eliminate_jd/game/local/getDailyMatchAward", obj2param(body), true),
+    $.post(taskUrl("eliminate_jdgh/game/local/getDailyMatchAward", obj2param(body), true),
       async (err, resp, data) => {
         try {
           if (err) {
