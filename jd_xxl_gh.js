@@ -272,7 +272,7 @@ function getTaskList() {
                 if (task.res.sName === "闯关集星") {
                   $.level = task.state.value + 1
                   console.log(`当前关卡：${$.level}`)
-                  while ($.strength >= 5 && $.level <= 240) {
+                  while ($.strength >= 5 && $.level <= 220) {
                     await beginLevel()
                   }
                   if($.not3Star.length && $.strength >= 5){
