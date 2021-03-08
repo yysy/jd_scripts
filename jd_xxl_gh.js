@@ -112,6 +112,7 @@ async function jdBeauty(help = true) {
   await getIsvToken2()
   await getActInfo()
   await getTaskList()
+  await play()
   //await getDailyMatch()
   // await marketGoods()
   if(help)await helpFriends()
