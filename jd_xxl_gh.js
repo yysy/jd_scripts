@@ -255,7 +255,7 @@ function checkLogin() {
 async function play() {
   $.level += 1
   console.log(`当前关卡：${$.level}`)
-  while ($.strength >= 5 && $.level <= 360) {
+  while ($.strength >= 5 && $.level <= 220) {
     await beginLevel()
   }
   if($.not3Star.length && $.strength >= 5){
