@@ -251,7 +251,21 @@ function checkLogin() {
     })
   })
 }
-
+async function play() {
+  $.level += 1
+  console.log(`当前关卡：${$.level}`)
+  while ($.strength >= 5 && $.level <= 360) {
+    await beginLevel()
+  }
+  if($.not3Star.length && $.strength >= 5){
+    console.log(`去完成尚未三星的关卡`)
+    for(let level of $.not3Star){
+      $.level = parseInt(level)
+      await beginLevel()
+      if($.strength<5) break
+    }
+  }
+}
 function getTaskList() {
   return new Promise(resolve => {
     $.post(taskUrl("platform/active/jingdong/gametasks", {
@@ -508,7 +522,7 @@ function finishTask(taskId) {
     "taskid": taskId,
     "id": $.id,
     "activeid": ACT_ID,
-    "activeId": ACT_ID,
+    //"activeId": ACT_ID,
     // "inviter": undefined,
     "token": $.to,
     "authcode": $.authcode
