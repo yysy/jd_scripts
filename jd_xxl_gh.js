@@ -255,7 +255,7 @@ function checkLogin() {
 async function play() {
   $.level += 1
   console.log(`当前关卡：${$.level}`)
-  while ($.strength >= 5 && $.level <= 220) {
+  while ($.strength >= 5 && $.level <= 200) {
     await beginLevel()
   }
   if($.not3Star.length && $.strength >= 5){
@@ -287,7 +287,7 @@ function getTaskList() {
                 if (task.res.sName === "闯关集星") {
                   $.level = task.state.value + 1
                   console.log(`当前关卡：${$.level}`)
-                  while ($.strength >= 5 && $.level <= 220) {
+                  while ($.strength >= 5 && $.level <= 200) {
                     await beginLevel()
                   }
                   if($.not3Star.length && $.strength >= 5){
