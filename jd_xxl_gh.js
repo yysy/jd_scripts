@@ -114,7 +114,7 @@ async function jdBeauty(help = true) {
   await getTaskList()
   await play()
   //await getDailyMatch()
-  // await marketGoods()
+  await marketGoods()
   if(help)await helpFriends()
 }
 async function helpFriends() {
